@@ -1,6 +1,6 @@
 {
-  "name": "@lagerweijtech/strip-html-tags",
-  "version": "1.0.7",
+  "name": "@sping/strip-html-tags",
+  "version": "1.1.0",
   "description": "Strips HTML tags from string",
   "main": "./lib/index.js",
   "directories": {
@@ -30,20 +30,17 @@
     "striphtmltags",
     "npm",
     "module",
-    "lagerweijtech",
-    "remylagerweij",
     "javascript"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remylagerweij/strip-html-tags.git"
+    "url": "git+https://github.com/sping/strip-html-tags.git"
   },
-  "author": "LagerweijTech <remy@lagerweij.tech>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/remylagerweij/strip-html-tags/issues"
+    "url": "https://github.com/sping/strip-html-tags/issues"
   },
-  "homepage": "https://github.com/remylagerweij/strip-html-tags#readme",
+  "homepage": "https://github.com/sping/strip-html-tags#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^10.0.1",
