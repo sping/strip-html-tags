@@ -1,21 +1,22 @@
 # Strip HTML Tags
 
-[![Build Status](https://travis-ci.org/remylagerweij/strip-html-tags.svg?branch=master)](https://travis-ci.org/remylagerweij/strip-html-tags) [![dependencies Status](https://david-dm.org/remylagerweij/strip-html-tags/status.svg)](https://david-dm.org/remylagerweij/strip-html-tags) [![devDependencies Status](https://david-dm.org/remylagerweij/strip-html-tags/dev-status.svg)](https://david-dm.org/remylagerweij/strip-html-tags?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Strip HTML tag from string
+Strip HTML tags from string.
 
-# Installation
-## Yarn or NPM
-`yarn add @lagerweijtech/strip-html-tags`
-`npm install @lagerweijtech/strip-html-tags`
+## Installation
 
-# Usage
+`yarn add @sping/strip-html-tags`
+`npm install @sping/strip-html-tags`
+
+## Usage
 
 1. Import stripHtmlTags in your .js file
 `@import stripHtmlTags`
 2. running `stripHtmlTags('<div class="hello">strip me</div>')` will return `'strip me'`
 
-# Commands
+## Commands
+
 - `npm run clean` - Remove `lib/` directory
 - `npm test` - Run tests with linting and coverage results.
 - `npm test:only` - Run tests without linting or coverage.
@@ -26,6 +27,3 @@ Strip HTML tag from string
 - `npm run cover` - Get coverage report for your code.
 - `npm run build` - Babel will transpile ES6 => ES5 and minify the code.
 - `npm run prepublish` - Hook for npm. Do all the checks before publishing your module.
-
-# License
-MIT © Lagerweij Tech
